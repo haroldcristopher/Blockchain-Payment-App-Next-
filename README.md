@@ -36,17 +36,12 @@ Welcome to the Next.js Blockchain Payment Application repository! This project i
 
 ## Getting Started
 
-To run the development server:
+run on the Command Prompt or Terminal(Ubuntu or MacOS), not vs-code terminal.
 
+Node version: over 18
 ```bash
+npm i
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-
 ```
 
 Open http://localhost:3000 with your browser to see the result. You can start editing the page by modifying app/page.js. The page auto-updates as you edit the file.

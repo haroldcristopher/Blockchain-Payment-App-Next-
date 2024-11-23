@@ -3,10 +3,11 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "next dev",
-    "build": "next build",
-    "start": "next start",
-    "lint": "next lint",
+    "dev": "npm run test | next dev",
+    "build": "npm run test | next build",
+    "start": "npm run test | next start",
+    "lint": "npm run test | next lint",
+    "test": "node App.test.js",
     "format": "prettier --write \"**/*.+(js|jsx|ts|tsx)\""
   },
   "dependencies": {
@@ -22,6 +23,8 @@
     "react": "^18",
     "react-dom": "^18",
     "react-icons": "^4.12.0",
+    "sqlite3": "^5.1.7",
+    "request": "^2.88.2",
     "viem": "^1.7.0",
     "wagmi": "^1.3.10"
   },
